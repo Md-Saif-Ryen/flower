@@ -1,0 +1,57 @@
+.main-div{
+    
+    background-color:rgb(255, 255, 255);
+    width: 54rem;
+    height: 24rem; 
+    position: absolute;
+    /* left: 35rem; */
+    top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div >:nth-child(1){
+    background: linear-gradient(90deg,rgba(248, 43, 231, 0.398),rgba(0, 0, 122, 0.704));
+    transform: rotate(90deg);
+    justify-content: center;
+    align-items: center;
+    left: 23em;
+    z-index: 1;
+    position: relative;
+   
+}
+.main-div >:nth-child(2){
+    background: linear-gradient(-45deg,rgba(254, 108, 35, 0.72), rgba(255, 255, 58, 0.759));
+    justify-content: center;
+    align-items: center;
+    left: 9.6rem;
+    z-index: 2;
+    position: relative;
+    transform: rotate(-45deg);
+   
+}
+.main-div >:nth-child(3){
+    background: linear-gradient(90deg,lightpink ,rgba(255, 0, 0, 0.794));
+    justify-content: center;
+    align-items: center;
+    left: -3.5rem;
+    z-index: 3;
+    position: relative;
+    transform: rotate(0deg);
+   
+}
+.main-div >:nth-child(4){
+    background: linear-gradient(90deg,rgba(3, 3, 174, 0.806), rgba(164, 0, 0, 0.826));
+    justify-content: center;
+    align-items: center;
+    left: -17rem;
+    z-index: 4;
+    position: relative;
+    transform: rotate(45deg);
+    
+}
+.div1{
+    width: 16rem;
+    height: 3rem;
+   border-radius:45px 0px 45px 0px;
+}
